@@ -35,6 +35,7 @@ Open a terminal (`Ctrl+Alt+T`) and run:
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt-get update
 sudo apt-get install rvm
+sudo usermod -a -G rvm <user>
 ```
 
 ## 2. Change your terminal window
